@@ -13605,147 +13605,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 27.94 67.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "058de71e-f1b6-46b8-896c-e96429ac9c8b")
-		(property "Reference" "R2"
-			(at 24.13 65.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10KΩ"
-			(at 21.336 68.326 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Number" ""
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Number" ""
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eb478fce-75f6-4578-a3fb-318d7c44fac7")
-		)
-		(pin "1"
-			(uuid "66600379-45a5-403a-a205-9926e4553666")
-		)
-		(instances
-			(project "lt-option-clone"
-				(path "/b202edd9-fece-42bd-ac83-72150a0b671a"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74LS00")
 		(at 181.61 218.44 0)
 		(unit 4)
@@ -16437,7 +16296,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
+		(property "Value" "Open"
 			(at 33.02 83.82 0)
 			(effects
 				(font
@@ -18874,27 +18733,29 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 35.56 67.31 180)
+		(at 35.56 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "639a2f88-6b8c-41e8-9048-bc24d691a794")
+		(uuid "5e0f8453-b198-4967-aefe-7bbf1ec3ba31")
 		(property "Reference" "R3"
-			(at 33.02 66.04 0)
+			(at 31.75 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10KΩ"
-			(at 31.75 68.326 0)
+			(at 28.956 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
@@ -18924,7 +18785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "DigiKey Part Number" "10KEBK-ND"
 			(at 35.56 67.31 0)
 			(effects
 				(font
@@ -18933,7 +18794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Manufacturer Part Number" "CFR-12JB-52-10K"
 			(at 35.56 67.31 0)
 			(effects
 				(font
@@ -18942,52 +18803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
-			(at 35.56 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 35.56 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 35.56 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 35.56 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Number" ""
-			(at 35.56 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Number" ""
+		(property "Mouser Part Number" "603-CFR-12JB-52-10K"
 			(at 35.56 67.31 0)
 			(effects
 				(font
@@ -18997,10 +18813,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4936be1f-f12d-4386-b5b2-c23cab50e121")
+			(uuid "f479ded5-02a0-4a75-ac4f-2601d5edd5bc")
 		)
 		(pin "1"
-			(uuid "ec871373-f37b-4926-875e-14f0801518ff")
+			(uuid "fd829582-081d-441b-9805-a40d7db14a3b")
 		)
 		(instances
 			(project "lt-option-clone"
@@ -21076,7 +20892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "DigiKey Part Number" "10KEBK-ND"
 			(at 19.05 67.31 0)
 			(effects
 				(font
@@ -21085,7 +20901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Manufacturer Part Number" "CFR-12JB-52-10K"
 			(at 19.05 67.31 0)
 			(effects
 				(font
@@ -21094,52 +20910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
-			(at 19.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 19.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 19.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 19.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Number" ""
-			(at 19.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Number" ""
+		(property "Mouser Part Number" "603-CFR-12JB-52-10K"
 			(at 19.05 67.31 0)
 			(effects
 				(font
@@ -21598,6 +21369,102 @@
 			(project "lt-option-clone"
 				(path "/b202edd9-fece-42bd-ac83-72150a0b671a"
 					(reference "#PWR32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 27.94 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "986dd289-c0a6-454d-ac8e-b02f20bba89d")
+		(property "Reference" "R2"
+			(at 24.13 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10KΩ"
+			(at 21.336 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 27.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 27.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "10KEBK-ND"
+			(at 27.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CFR-12JB-52-10K"
+			(at 27.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-CFR-12JB-52-10K"
+			(at 27.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "615e62dc-4ff0-4edb-ba0e-4227ebf102a9")
+		)
+		(pin "1"
+			(uuid "b65bc3f6-c27c-4d41-ae66-b06eb0c89860")
+		)
+		(instances
+			(project "lt-option-clone"
+				(path "/b202edd9-fece-42bd-ac83-72150a0b671a"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -22272,7 +22139,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
+		(property "Value" "Open"
 			(at 33.02 93.98 0)
 			(effects
 				(font
