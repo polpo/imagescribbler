@@ -44,3 +44,15 @@ the WDC chip, bridge JP4 and leave JP3 open. If using any other chip, bridge JP3
 You'll have to source vintage parts for the SCC (Zilog Z8530 or Z85C30, AMD AM8530 or AM85C30), NVSRAM (Xicor X2444 or X24C44 or CSI 24C44LI), and if you're not using a new WDC W65C02, the CPU (Rockwell/Conexant R65C02, CMD/GTE G65SC02, or NCR 65C02A).
 
 Program the E[E]PROM at U4 with the 341-0034-B.bin ROM image available at the [Apple II Documentation Project](https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Peripherals/Printers/Apple%20ImageWriter%20LocalTalk%20Option%20Card/ROM%20Images/).
+
+## Thanks
+
+Thanks to:
+
+- Tom Barber for lending me his original LocalTalk Option card and allowing me to remove all the components so I could scan the PCB
+- Steve from Mac84 for testing the card in his ImageWriter LQ
+- Paul Rickards for also testing the design and being part of starting GlobalTalk
+- Ron from Ron's Computer Videos for encouragement and providing PhoneNet adapters
+- Joe from JCM-1 for providing a place to sell assembled boards
+- Eric from BlueSCSI for being nerd sniped on decoding the format of the NVSRAM
+- Whoever left the ImageWriter II that I now use on the free pile at VCF Midwest 2024
