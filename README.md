@@ -12,6 +12,9 @@ want with it!
 
 Want to buy one fully assembled or just a bare PCB? [JCM-1 has them!](https://jcm-1.com/product/imagescribbler-localsquawk-option-card/)
 
+For information on how to use this card in an ImageWriter, [Apple's original User Guide for the ImageWriter II/LQ LocalTalk Option
+is a good reference.](https://archive.org/details/imagewriter-ii-lq-localtalk-option-users-guide)
+
 ## Differences between the original ImageWriter II/LQ LocalTalk Option and the ImageScibbler LocalSquawk Option
 
 - Footprint to allow either DIP-8 or DIP-14 sized oscillator
@@ -47,6 +50,9 @@ You'll have to source vintage parts for the SCC (Zilog Z8530 or Z85C30, AMD AM85
 
 Program the E[E]PROM at U4 with the 341-0034-B.bin ROM image available at the [Apple II Documentation
 Project](https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Peripherals/Printers/Apple%20ImageWriter%20LocalTalk%20Option%20Card/ROM%20Images/).
+
+Program the NVSRAM at U18 with X2444-imagescribbler.bin in this repository. If this chip is not programmed, the card may not show up
+in Chooser, and it will not be able to be renamed by [The Namer](https://macintoshgarden.org/apps/namer).
 
 To bridge JP1/2/3/4 (set according to instructions above), you have three options: solder in part of the cut off leads from the
 resistors or capacitors, use a solder bridge, or if you want to make it configurable, use 2.54mm pin
