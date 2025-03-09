@@ -10,6 +10,8 @@ This card can be used in an Apple ImageWriter II or LQ printer to enable LocalTa
 Since this is a clone of an existing device, it's licensed [CC0](https://creativecommons.org/public-domain/cc0/). Do whatever you
 want with it!
 
+Want to buy one fully assembled or just a bare PCB? [JCM-1 has them!](https://jcm-1.com/product/imagescribbler-localsquawk-option-card/)
+
 ## Differences between the original ImageWriter II/LQ LocalTalk Option and the ImageScibbler LocalSquawk Option
 
 - Footprint to allow either DIP-8 or DIP-14 sized oscillator
