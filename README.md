@@ -39,4 +39,6 @@ leftmost 4 pads open. An 8K 6264 SRAM (specified in the BOM) fills the entire fo
 This design can use either the (still available in 2025) WDC W65C02S, or vintage 65C02/64SC02 chips by other manufacturers. If using
 the WDC chip, bridge JP4 and leave JP3 open. If using any other chip, bridge JP3 and leave JP4 open.
 
+You'll have to source vintage parts for the SCC (Zilog Z8530 or Z85C30, AMD AM8530 or AM85C30), NVSRAM (Xicor X2444 or X24C44 or CSI 24C44LI), and if you're not using a new WDC W65C02, the CPU (Rockwell/Conexant R65C02, CMD/GTE G65SC02, or NCR 65C02A).
+
 Program the E[E]PROM at U4 with the 341-0034-B.bin ROM image available at the [Apple II Documentation Project](https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Peripherals/Printers/Apple%20ImageWriter%20LocalTalk%20Option%20Card/ROM%20Images/).
