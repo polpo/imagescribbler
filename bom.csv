@@ -1,6 +1,7 @@
 "Reference","Value","Footprint","Qty","DigiKey Part Number","Mouser Part Number","Description","Manufacturer Part Number"
 "C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17","100nF","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","17","445-173588-1-ND","810-FG28X7R1H104KNT6","Unpolarized capacitor, small symbol","FG28X7R1H104KNT06"
 "C18","10uF","Capacitor_THT:CP_Radial_D6.3mm_P2.50mm","1","10-ECE-A1CKS100ICT-ND","667-ECE-A1CKS100I","Polarized capacitor, small symbol","ECE-A1CKS100I"
+"H1,H2,H3,H4","MountingHole","","4","952-3469-ND","855-R6413-00","Mounting Hole without connection","R6413-00"
 "JP1,JP2,JP3,JP4","Open","library:Jumper_1x02_P2.54mm_Vertical-SolderBridge","4","","","Jumper, 2-pole, open",""
 "P1","Conn_02x13_Odd_Even","Connector_PinSocket_2.54mm:PinSocket_2x13_P2.54mm_Vertical","1","H123833-ND","798-HIF3FB26DA254D71","Hirose Headers & Wire Housings 26P STRT SOCKET T/H LOW PROF CON GLD PLT","HIF3FB-26DA-2.54DSA(71)"
 "R1,R2,R3","10KΩ","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","3","10KEBK-ND","603-CFR-12JB-52-10K","Resistor, small symbol","CFR-12JB-52-10K"

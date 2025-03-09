@@ -30,7 +30,8 @@ available and cheaper. So I recommend using that series, and that is what is now
 The connector specified in the BOM for P1 is pretty expensive due to its height. You can possibly use a shorter IDC-style connector,
 but be aware of clearance under the board and height of standoffs on the ImageWriter II, and on the ImageWriter LQ, it may not make
 sufficient contact with the connector inside the printer. On boards that I've made for sale, I use a PCB spacer along with the more
-commonly available shorter connector to get the proper height.
+commonly available shorter connector to get the proper height. Remember that P1 goes on the _underside_ of the board, with the
+polarizing key facing towards the near edge of the board.
 
 The capacitor for C18 in the BOM is short enough to fit with no clearance issues, but taller more commonly available capacitors can
 be used, just bend them over before soldering.
@@ -44,11 +45,19 @@ the WDC chip, bridge JP4 and leave JP3 open. If using any other chip, bridge JP3
 You'll have to source vintage parts for the SCC (Zilog Z8530 or Z85C30, AMD AM8530 or AM85C30), NVSRAM (Xicor X2444 or X24C44 or CSI
 24C44LI), and if you're not using a new WDC W65C02, the CPU (Rockwell/Conexant R65C02, CMD/GTE G65SC02, or NCR 65C02A).
 
-Program the E[E]PROM at U4 with the 341-0034-B.bin ROM image available at the [Apple II Documentation Project](https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Peripherals/Printers/Apple%20ImageWriter%20LocalTalk%20Option%20Card/ROM%20Images/).
+Program the E[E]PROM at U4 with the 341-0034-B.bin ROM image available at the [Apple II Documentation
+Project](https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Peripherals/Printers/Apple%20ImageWriter%20LocalTalk%20Option%20Card/ROM%20Images/).
 
 To bridge JP1/2/3/4 (set according to instructions above), you have three options: solder in part of the cut off leads from the
 resistors or capacitors, use a solder bridge, or if you want to make it configurable, use 2.54mm pin
 headers and jumper shunts.
+
+While not strictly necessary, the original board uses a grounding wire from the plated through hole on the left side to to a spade
+lug inside the printer. I recommend connecting it as it really does clean up the ground on the board. Use a small length of wire
+with a crimp spade connector.
+
+The original board came with standoffs to prevent it from contacting the main board inside the ImageWriter II, and matching
+standoffs are included in the BOM. If you can't source them, they're not strictly necessary - use a bit of insulative foam.
 
 ## Thanks
 
